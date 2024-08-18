@@ -8,9 +8,11 @@
     "license": "MIT",
     "devDependencies": {
         "@actions/core": "^1.9.1",
-        "@zeit/ncc": "^0.20.5"
+        "@vercel/ncc": "^0.38.1",
+        "tiny-json-http": "^7.5.1"
     },
     "scripts": {
         "build": "node scripts/build.js"
-    }
+    },
+    "packageManager": "yarn@4.4.0"
 }
